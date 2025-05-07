@@ -60,8 +60,9 @@ A comprehensive backend system for a tour booking platform with advanced feature
 ## Getting Started
 
 ### Prerequisites
-- Node.js (v14 or higher)
-- MongoDB
+- Node.js (v14.0.0 or higher)
+- npm (v6.0.0 or higher)
+- MongoDB (v4.4 or higher)
 - Stripe account
 - Cloudinary account
 
@@ -86,6 +87,15 @@ EMAIL_SERVICE=your_email_service
 EMAIL_USERNAME=your_email_username
 EMAIL_PASSWORD=your_email_password
 EMAIL_FROM=your_email_address
+```
+
+### Version Requirements
+This project requires specific versions of Node.js and npm as specified in the package.json file:
+```json
+"engines": {
+  "node": ">=14.0.0",
+  "npm": ">=6.0.0"
+}
 ```
 
 ### Installation
